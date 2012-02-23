@@ -1,9 +1,9 @@
-#version 330
+#version 120
 
-in vec4 vertex;
-in vec4 color;
+attribute vec4 vertex;
+attribute vec4 color;
 
-out vec4 varyingColor;
+varying vec4 varyingColor;
 
 void main() {
     varyingColor = color;
